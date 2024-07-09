@@ -1,6 +1,6 @@
 # SafeSpaceShare
 
-SafeSpaceShare is a mobile-first React application designed to collect and visualize personal experiences related to emotional well-being and safety. It utilizes the ArcGIS JavaScript API for interactive mapping and leverages ArcGIS Online (AGOL) to store user-generated data securely on a feature service. The application is built on the React framework to facilitate learning and ensure scalability for future growth and enhancements.
+SafeSpaceShare is a mobile-first React application designed to collect and visualize personal experiences related to emotional well-being and safety. It utilizes the ArcGIS JavaScript API for interactive mapping and leverages ArcGIS Online (AGOL) to store user-generated data securely on a feature service. 
 
 ## Features
 
