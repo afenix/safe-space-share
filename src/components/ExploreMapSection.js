@@ -20,8 +20,8 @@ const ExploreMapComponent = () => {
 
   // create object of keys that correspond to the emotional attributes and values as their respective labels
   const attributeLabels = {
-    happinessSadness: 'Feeling',
-    calmAnxious: 'Anxious',
+    happinessSadness: 'Happiness', // change to more descriptive term that provides parallel structure
+    calmAnxious: 'Calmness', // change to more descriptive term that provides parallel structure
     awakeTired: 'Alertness',
     safety: 'Safety',
     belonging: 'Belonging'
@@ -235,7 +235,7 @@ const ExploreMapComponent = () => {
               }
             ]
           })
-          mapView.ui.add(legend, 'bottom-left')
+          mapView.ui.add(legend, 'bottom-right') // move legend to bottom-right so it's in line with attribute selection widget
 
           // Add a locate button to the view
           const locateBtn = new Locate({
@@ -304,7 +304,7 @@ const ExploreMapComponent = () => {
       </p>
       <div className='explore-container'>
         <div className='select-container'>
-          <label htmlFor='attribute-select'>Select Emotion:</label>
+          <label htmlFor='attribute-select'>Select Experience Type:</label> {/* Change label to more descriptive term matching the legend title*/}
           <select
             id='attribute-select'
             value={selectedAttribute}
